@@ -13,7 +13,7 @@
   <h1 align="center">BrickUp</h1>
 
   <p align="center">
-    A nostalgic brick-breaker game written in Python.
+    A BrickBreaker clone for terminal lovers.
     <br />
     <a href="https://github.com/ArenaGrenade/BrickUp/issues">Report Bug</a>
     ·
