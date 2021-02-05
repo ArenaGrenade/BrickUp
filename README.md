@@ -139,4 +139,4 @@ Project Link: [https://github.com/ArenaGrenade/BrickUp](https://github.com/Arena
 [license-shield]: https://img.shields.io/github/license/ArenaGrenade/BrickUp.svg?style=for-the-badge
 [license-url]: https://github.com/ArenaGrenade/BrickUp/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/ArenaGrenade
+[linkedin-url]: https://linkedin.com/in/rohan-asokan
