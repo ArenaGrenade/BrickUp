@@ -11,7 +11,7 @@
 </p>
 
 <!-- TABLE OF CONTENTS -->
-<details open="open">
+<details>
   <summary><h2 style="display: inline-block">Table of Contents</h2></summary>
   <ol>
     <li>
@@ -86,7 +86,23 @@ You will obviously need Python installed on your computer as the game is itself 
 
 ## Brick Breaker Hall of Fame
 
-You could be here. :) Follow the instructions above
+You could be here. :) Just follow the instructions above.
+
+## About the Code itself
+
+The game is filled with OOPS. Everywhere you look there is OOPS.
+
+The core of the whole game lies inside the `WindowManagement.py` file inside the core direrctory under the game directory. Here the two main thigs are the render thread and the input thread. They are run as two differen threads just so that the input doesn't hog down on the render and physics processing of the game.
+
+The Bricks, Paddle and the Ball are the other components of the game that are present in their own files too. Further every object in the game is inherited from `Component` which is an abstract class.
+
+The `Level` class is built over other Brick classes and it is done in such a way so that the collision system becomes efficient. For every physics update, we will only have to check the collision with four other bricks with the current algorithm. This is a huge speedup over a method that checks each and every brick for collision.
+
+There are other components like the `Score`, `Time` and `Lives` all of which are considered `Number` components and have a certan structure to them.
+
+All other utility functions like - an id generator for the components, collision handlers and other vector operations are under the `utils` directory.
+
+The engine though crude has quite a level of code freedom such that addingg new features would be very straightforward and simple.
 
 ## Contributing
 
