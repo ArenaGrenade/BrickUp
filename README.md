@@ -1,17 +1,6 @@
-<!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
-
-<!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/ArenaGrenade/BrickUp">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
   <h1 align="center">BrickUp</h1>
-
   <p align="center">
     A BrickBreaker clone for terminal lovers.
     <br />
@@ -51,6 +40,10 @@
   <img src="images/screenshot.png" alt="Project Screenshot" />
 </p>
 
+A decent looking terminal version of the most-loved BrickBreaker games. It features multiple powerups like - Shrink Paddle, Expand Paddle, Multi-ball, Thru-ball...(I'll keep some for you to discover when you play the game). You have five lives to course through the game and clear all the bricks on which you will win.
+
+There is a tiny binary clock to the side - just to make it harder for you to forget how long you have been playing.. :smile:
+
 ### Built With
 
 * [Python](https://www.python.org/)
@@ -64,23 +57,9 @@ To get a local copy up and running follow these simple steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
+You will obviously need Python installed on your computer as the game is itself written in python. For all other liibraries follow the steps under [Installation](#Installation).
 
-* Python
-
-  Refer [Official Python Website for installation in your OS](https://www.python.org/downloads/)
-
-* Colorama
-
-  ```sh
-  pip3 install colorama
-  ```
-
-* Numpy
-
-  ```sh
-  pip3 install numpy
-  ```
+* Python - Refer [Official Python Website for installation in your OS](https://www.python.org/downloads/)
 
 ### Installation
 
@@ -103,7 +82,12 @@ This is an example of how to list things you need to use the software and how to
     python main.py
     ```
 
-<!-- CONTRIBUTING -->
+4. Ping me if you beat the game or just create a PR, I will send you virtual chocolates and add you to the [Brick Breaker Hall of Fame](#Brick-Breaker-Hall-of-Fame) list.
+
+## Brick Breaker Hall of Fame
+
+You could be here. :) Follow the instructions above
+
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
@@ -114,29 +98,10 @@ Contributions are what make the open source community such an amazing place to b
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<!-- LICENSE -->
 ## License
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- CONTACT -->
 ## Contact
 
-Rohan Asokan - [@agentAsskon](https://twitter.com/@agentAsskon) - rohan.asokan@students.iiit.ac.in
-
-Project Link: [https://github.com/ArenaGrenade/BrickUp](https://github.com/ArenaGrenade/BrickUp)
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/ArenaGrenade/BrickUp.svg?style=for-the-badge
-[contributors-url]: https://github.com/ArenaGrenade/BrickUp/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/ArenaGrenade/BrickUp.svg?style=for-the-badge
-[forks-url]: https://github.com/ArenaGrenade/BrickUp/network/members
-[stars-shield]: https://img.shields.io/github/stars/ArenaGrenade/BrickUp.svg?style=for-the-badge
-[stars-url]: https://github.com/ArenaGrenade/BrickUp/stargazers
-[issues-shield]: https://img.shields.io/github/issues/ArenaGrenade/BrickUp.svg?style=for-the-badge
-[issues-url]: https://github.com/ArenaGrenade/BrickUp/issues
-[license-shield]: https://img.shields.io/github/license/ArenaGrenade/BrickUp.svg?style=for-the-badge
-[license-url]: https://github.com/ArenaGrenade/BrickUp/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/rohan-asokan
+Rohan Asokan - [@agentAsskon](https://twitter.com/@agentAsskon) - rohan.asokan@students.iiit.ac.in - [LinkedIn](https://linkedin.com/in/rohan-asokan)
